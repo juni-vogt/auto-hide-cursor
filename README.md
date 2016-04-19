@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/matthias-vogt/new-tab-url/master/icons/48.png" alt="Screenshot" height="40"> Auto Hide Cursor
+# <img src="https://raw.githubusercontent.com/matthias-vogt/auto-hide-cursor/master/icons/48.png" alt="Screenshot" height="40"> Auto Hide Cursor
 
 Automatically hides the Cursor on webpages after a configurable amount of seconds. Hides the cursor on all pages at the same time.
 
