@@ -1,0 +1,80 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: .85em;
+  min-width: 14em;
+}
+
+input {
+  font: inherit;
+}
+
+h1 {
+  font-size: 1.1em;
+}
+h1 span {
+  display: none;
+}
+
+label {
+  margin: 1.25em 0;
+  display: block;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: .25em 0;
+  padding: .2em;
+  border: solid 1px #cdcdcd;
+  border-radius: .2em;
+}
+
+code {
+  border-radius: .2em;
+  background: #eee;
+  margin: 0 .05em;
+}
+
+.btw {
+  color: #888;
+}
+
+#status {
+  color: gray;
+  transition: opacity .1s ease 0s;
+}
+
+#status.notice {
+  color: green;
+}
+
+#status.hidden {
+  opacity: 0;
+  transition-delay: 1.75s;
+}
+
+@media (min-width: 500px) {
+  h1 span {
+    display: inline;
+  }
+  body {
+    margin: 0;
+    max-width: 15em;
+    font-size: 1em;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

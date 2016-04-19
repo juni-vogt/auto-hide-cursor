@@ -1,0 +1,6 @@
+.__auto-hide-cursor--cursor-hidden,
+.__auto-hide-cursor--cursor-hidden *,
+.__auto-hide-cursor--cursor-hidden :before,
+.__auto-hide-cursor--cursor-hidden :after {
+	cursor: none !important; /* sorry */
+}
