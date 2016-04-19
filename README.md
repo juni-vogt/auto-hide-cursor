@@ -4,4 +4,4 @@ Automatically hides the Cursor on webpages after a configurable amount of second
 
 Also comes with a keyboard shortcut to hide the cursor: <kbd>Ctrl+Shift+H</kbd>/<kbd>Cmd+Shift+H</kbd>
 
-idk why but the cursor annoys me when I'm reading a blogpost or something and pressing *any* button to hide it is just way too much of a hassle for me. (See also)[https://xkcd.com/1319/], except replace time with "not fun".
+idk why but the cursor annoys me when I'm reading a blogpost or something and pressing *any* button to hide it is just way too much of a hassle for me. (See also)[https://xkcd.com/1319/], except replace "time" with "not fun".
